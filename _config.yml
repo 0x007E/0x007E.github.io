@@ -18,15 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: g.raf^engineering 
+title: "g.raf^engineering" 
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hey, this is 0x007E also called Tilde ~. I am an electronics and informatic engineer living near the Alps in Austria. Currently I am interested in everything with a transistor that can be programmed with C or any other language. 
+  Hey, this is 0x007E also called Tilde ~. I am an electronics and informatics engineer living near the Alps in Austria. Currently I am interested in everything with a transistor that can be programmed with C or any other language.
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: "0x007e.github.io"
 url: "https://0x007e.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: sunriax
-github_username:  0x007E
+twitter_username: "sunriax"
+github_username:  "0x007E"
 
 # Build settings
 theme: minima
