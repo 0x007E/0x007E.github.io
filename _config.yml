@@ -1,54 +1,90 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: "Bits & ~ Tech Blog"
+# If brand is not set the github user avatar will be used.
+# Priority:
+# - image
+# - gravatar
+# - github user avatar
+brand:
+  # image: "https://image.url/here.png"
+  # Mail SHA256 encrypted with https://emn178.github.io/online-tools/sm3.html
+  gravatar: "f4ef9cbf3c2c5a2a1afa89a33134b335b5237132f06729990cacbfc5646b0b6a"
+  # width: 20   # default: 30
+  # height: 20  # default: 30
+github:
+  user: "0x007e"
+  # email: "person@mail.address"
+copyright: "Published by 0x007E"
+license: "https://github.com/0x007E/0x007e.github.io/blob/main/LICENSE.md"
 
-title: g.raf^engineering 
-#email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Hey, this is 0x007E also called Tilde ~. I am an electronics and informatic engineer living near the Alps in Austria. Currently I am interested in everything with a transistor that can be programmed with C or any other language. 
-baseurl: "" # the subpath of your site, e.g. /blog
-domain: "0x007e.github.io"
+description: >
+  Welcome to my blog! Here I share insights into my projects related to electronics, software development, network technology, and computer science. In addition to practical tips, you'll also find documentation and ideas for getting involved. If you'd like to share your ideas, feel free to reach me via LinkedIn or submit your own suggestions for improvement directly via GitHub.
+
 url: "https://0x007e.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: sunriax
-github_username:  0x007E
+baseurl: "" # the subpath of your site, e.g. /blog
+remote_theme: 0x007e/tilde
 
-# Build settings
-theme: minima
+social:
+  - title: Find me on GitHub
+    icon: github
+    link: "https://github.com/0x007e"
+    # values: primary, secondary, success, danger, warning, info, light, dark, body-emphasis
+    color: "danger"
+  - title: Find me on GitLab
+    icon: gitlab
+    link: "https://gitlab.com/0x007e"
+  - title: 0x007e at X (formerly Twitter)
+    icon: x
+    link: "https://x.com/sunriax"
+  - title: 0x007e at LinkedIn
+    icon: linkedin
+    link: "https://www.linkedin.com/in/ragae"
+  ### and many more -> https://tabler.io/icons -> search: brand
+tilde:
+  # Restict links in navbar to listed pages
+  # -> e.g. if you have a README.md/LICENSE.md in your root folder and they should not be displayed.
+  nav_pages:
+    - about.md
+    - impressum.md
+  # Set in which formate dates are displayed
+  # Possible formats: https://shopify.github.io/liquid/filters/date/
+  # date_format: "%b %-d, %Y"
+  show_introduction: true
+  visible_posts: 10
+  category_show_goto: true
+  truncate_next_blog_link: 35
+
+# footer:
+# Column allocation in the footer. A total of 10 is always required.
+#   github_column: 4
+#   description_column: 6
+
+feed:
+  hide: false
+  color: "success"
+
+google_analytics: "G-HF57BZRV9J" # Google Analytics tracking ID
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-avatar
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: false 
+
+sass:
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path:            "assets/*"
+    values:
+      sitemap:         false
