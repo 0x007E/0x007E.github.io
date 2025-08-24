@@ -2,7 +2,7 @@
 
 # Based on
 
-This blog is base on the `Jekyll-Tilde-Theme`-Template
+This blog is based on the `Jekyll-Tilde-Theme`-Template
 
 > The theme can be found [here](https://github.com/0x007e/jekyll-tilde-theme).
 
