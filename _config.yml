@@ -38,6 +38,9 @@ social:
   - title: 0x007e at LinkedIn
     icon: linkedin
     link: "https://www.linkedin.com/in/ragae"
+  - title: 0x007e at StackOverflow
+    icon: stackoverflow
+    link: "https://stackoverflow.com/users/13855290/sunriax"
   ### and many more -> https://tabler.io/icons -> search: brand
 tilde:
   # Restict links in navbar to listed pages
