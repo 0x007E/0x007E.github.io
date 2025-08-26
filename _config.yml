@@ -41,6 +41,10 @@ social:
   - title: 0x007e at StackOverflow
     icon: stackoverflow
     link: "https://stackoverflow.com/users/13855290/sunriax"
+  - title: 0x007e on YouTube
+    icon: youtube
+    link: "https://www.youtube.com/@mr.bitshift"
+    color: danger
   ### and many more -> https://tabler.io/icons -> search: brand
 tilde:
   # Restict links in navbar to listed pages
