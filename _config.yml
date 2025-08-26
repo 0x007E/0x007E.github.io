@@ -28,16 +28,18 @@ social:
     icon: github
     link: "https://github.com/0x007e"
     # values: primary, secondary, success, danger, warning, info, light, dark, body-emphasis
-    color: "danger"
+    color: secondary
   - title: Find me on GitLab
     icon: gitlab
     link: "https://gitlab.com/0x007e"
   - title: 0x007e at X (formerly Twitter)
     icon: x
     link: "https://x.com/sunriax"
+    color: secondary
   - title: 0x007e at LinkedIn
     icon: linkedin
     link: "https://www.linkedin.com/in/ragae"
+    color: primary
   - title: 0x007e at StackOverflow
     icon: stackoverflow
     link: "https://stackoverflow.com/users/13855290/sunriax"
