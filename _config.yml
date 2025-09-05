@@ -72,6 +72,13 @@ feed:
   color: "success"
 
 google_analytics: "G-HF57BZRV9J" # Google Analytics tracking ID
+cookies:
+  title: Cookies & Privacy
+  text: >
+    This website uses cookies for analysis and personalization (Google Analytics).
+    Should cookies be allowed?
+  button_accept: Accept
+  button_decline: Decline
 
 plugins:
   - jekyll-feed
