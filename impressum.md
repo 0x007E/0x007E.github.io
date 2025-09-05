@@ -38,7 +38,9 @@ This blog may contain links to external websites. I have no control over the con
 ---
 
 **Data Privacy:**  
-No personal data is collected or stored unless it is strictly necessary for the technical operation of the blog. For further information, please refer to a separate privacy notice (if available).
+No personal data is collected or stored unless it is strictly necessary for the technical operation of the documentation.If the user accepts cookies in the consent dialog, Google Analytics will be activated and used for anonymized website usage analysis. No tracking cookies are set until the user has given explicit permission.
+
+For further information, please refer to a separate [Privacy Policy]({{ '/privacy/' | relative_path }}.
 
 ---
 

@@ -54,6 +54,7 @@ tilde:
   nav_pages:
     - about.md
     - impressum.md
+    - privacy.md
   # Set in which formate dates are displayed
   # Possible formats: https://shopify.github.io/liquid/filters/date/
   # date_format: "%b %-d, %Y"
