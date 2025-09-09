@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [General,Electonics,Informatics,Projects]
+categories: [General]
 introduction: "Here’s the first step in my blogging adventure—welcome to the official start of my blog!"
 ---
 
