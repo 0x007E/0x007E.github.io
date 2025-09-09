@@ -2,7 +2,7 @@
 layout: post
 title: How to use printf/scanf with floating-point in Microchip Studio
 categories: [Microcontroller]
-introduction: "How to use printf with floating-point in Microchip Studio"
+introduction: "Explanation of how to enable floating-point support for printf and scanf in Microchip Studio on AVR microcontrollers."
 tags: [printf, floating-point, microchip studio, avr, atmega, attiny, microcontroller]
 ---
 
