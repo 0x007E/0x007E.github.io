@@ -13,9 +13,6 @@ brand:
 github:
   user: "0x007e"
   # email: "person@mail.address"
-bing:
-  key: msvalidate.01
-  value: E67A47832F8F91DCC5D4A5546B48052E
 copyright: "Published by 0x007E"
 license: "https://github.com/0x007E/0x007e.github.io/blob/main/LICENSE.md"
 
@@ -83,6 +80,10 @@ cookies:
     Should cookies be allowed?
   button_accept: Accept
   button_decline: Decline
+  
+bing:
+  key: msvalidate.01
+  value: E67A47832F8F91DCC5D4A5546B48052E
 
 plugins:
   - jekyll-feed
